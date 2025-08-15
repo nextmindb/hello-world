@@ -58,10 +58,10 @@ class ThemeManager {
         
         // Update icon
         if (theme === 'dark') {
-            this.themeIcon.textContent = '🌙';
+            this.themeIcon.textContent = 'dark_mode';
             this.themeToggle.setAttribute('aria-label', '切换到亮色模式');
         } else {
-            this.themeIcon.textContent = '☀️';
+            this.themeIcon.textContent = 'light_mode';
             this.themeToggle.setAttribute('aria-label', '切换到暗色模式');
         }
     }
